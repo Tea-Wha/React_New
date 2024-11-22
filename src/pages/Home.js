@@ -15,7 +15,9 @@ const Home = () => {
       <br />
       <Link to="/profile/backend">Backend 프로필</Link>
       <br />
-      <Link to="profile/dba"> DataBase 프로필</Link>
+      <Link to="/profile/dba"> DataBase 프로필</Link>
+      <br />
+      <Link to="/articles">게시판 목록</Link>
     </>
   );
 };
